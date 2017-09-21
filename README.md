@@ -6,7 +6,10 @@ Note: GQuant is a simple backtesting frame for Chinese Futures Market. Personall
 
 Furthermore, there are many space for improvement, such as 
 
-- More dedicated designed exchange simulator
+- More dedicated designed exchange simulator. It is flexible and extendible, for day/hour/minute/second/tick level data executor. Even you can make it for order book dynamics research.
+- Maybe you's like to link with CTP or SimNow, and it's OKay.
+- More accurate commission model for different financial trading underlying and  different markets. 
+- More precise slippage model for different liqudity environment.
 
 ## Environment：
 
