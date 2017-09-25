@@ -10,6 +10,7 @@ Furthermore, there are many space for improvement, such as
 - Maybe you's like to link with CTP or SimNow, and it's OKay.
 - More accurate commission model for different financial trading underlying and  different markets. 
 - More precise slippage model for different liqudity environment.
+- Add risk management module in the Portfolio model.
 
 ## Environment：
 
