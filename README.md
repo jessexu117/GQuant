@@ -2,7 +2,11 @@
 
 A Simple Event-driven Backtester for futures market with Python 3.x
 
-Note: GQuant is a simple backtesting frame for Chinese Futures Market. Personally speaking, it's a efficient tool or project to understand the key idea of event-driven programming model and object-oriented programming with Python, and their application on quantitative development/financial computing. 
+Author: Jesse J. Hsu
+
+Email: jinjie.xu@whu.edu.cn
+
+**Note:** GQuant is a simple backtesting frame for Chinese Futures Market. Personally speaking, it's a efficient tool or project to understand the key idea of event-driven programming model and object-oriented programming with Python, and their application on quantitative development/financial computing. 
 
 ## Environment：
 
