@@ -11,6 +11,10 @@ Note: GQuant is a simple backtesting frame for Chinese Futures Market. Personall
 - Pandas
 - Matplotlib
 
+## Engine:
+
+- Commission model, including zero commission model, per share commission model, per money commission model and per trade commission model
+
 ## Improvement:
 
 - More dedicated designed exchange simulator. It is flexible and extendible, for day/hour/minute/second/tick level data executor. Even you can make it for order book dynamics research.
