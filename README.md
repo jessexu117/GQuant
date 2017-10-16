@@ -13,7 +13,7 @@ Note: GQuant is a simple backtesting frame for Chinese Futures Market. Personall
 
 ## Engine:
 
-- Commission model, including zero commission model, per share commission model, per money commission model and per trade commission model
+- **Commission model**, including zero commission model, per share commission model, per money commission model and per trade commission model.
 
 ## Improvement:
 
