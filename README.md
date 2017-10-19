@@ -15,7 +15,7 @@ Note: GQuant is a simple backtesting frame for Chinese Futures Market. Personall
 
 - **Commission model**, including zero commission model, per share commission model, per money commission model and per trade commission model.
 - **Slippage model**, including zero slippage model, fixed percent slippage model and volume share slippage model.
-- Data model, date handler. Including CSV data handler, Relational Database handler and Wind data handler. 
+- **Data model**, date handler. Including CSV data handler, Relational Database handler and Wind data handler. 
 
 ## Improvement:
 
