@@ -4,7 +4,7 @@
 Constant Collection
 
 @author: Jesse J. Hsu
-@email: jessexu117@outlook.com
+@email: jinjie.xu@whu.com.cn
 @version: 0.1
 """
 
