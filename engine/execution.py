@@ -5,7 +5,7 @@ ExecutionHandler Class
 Order Execution Simulation in Exchange
 
 @author: Jesse J. Hsu
-@email: jessexu117@outlook.com
+@email: jinjie.xu@whu.edu.cn
 @version: 0.1
 """
 
