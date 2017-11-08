@@ -4,7 +4,7 @@
 A Simple Logger Module
 
 @author: Jesse J. Hsu
-@email: jinjie.xu@whu.edu.cn
+@email: jinjie.xu@whu.edu.cn 
 @version: 0.1
 """
 
