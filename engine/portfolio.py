@@ -5,7 +5,7 @@ Portfolio Class
 Achieve including: position track, order management, profile analysis and risk management
 
 @author: Jesse J. Hsu
-@email: jessexu117@outlook.com
+@email: jinjie.xu@whu.edu.cn
 @version: 0.1
 """
 
