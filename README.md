@@ -17,7 +17,7 @@ Note: GQuant is a simple backtesting frame for Chinese Futures Market. Personall
 - **Slippage model**, including zero slippage model, fixed percent slippage model and volume share slippage model.
 - **Data model**, date handler. Including CSV data handler, Relational Database handler and Wind data handler. 
 - **Execution model**, order execution simulation in exhcnage. The given simulator is a simple example.
-- **Portfolio model**
+- **Portfolio model**, position tracking, order management, profile analysis and risk management.
 
 ## Improvement:
 
