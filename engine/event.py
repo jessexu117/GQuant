@@ -5,7 +5,7 @@ Event Class
 Event can be transfer between data, portfolio and simulated exchange
 
 @author: Jesse J. Hsu
-@email: jessexu17@outlook.com
+@email: jinjie.xu@whu.edu.cn
 @version: 0.1
 """
 
