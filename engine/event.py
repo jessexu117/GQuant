@@ -143,3 +143,4 @@ class FillEvent(Event):
         self.direction = direction
         self.fill_price = fill_price
         self.commission = commission
+
