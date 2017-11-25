@@ -18,7 +18,7 @@ Note: GQuant is a simple backtesting frame for Chinese Futures Market. Personall
 - **Data model**, date handler. Including CSV data handler, Relational Database handler and Wind data handler. 
 - **Execution model**, order execution simulation in exhcnage. The given simulator is a simple example.
 - **Portfolio model**, position tracking, order management, profile analysis and risk management. There is a given basic portfolio model.
-- **Event model**, event can be tranfered between data, portfolio and simulated exchange.
+- **Event model**, event can be tranfered between data, portfolio and simulated exchange. including tick event, bar event, signal event, fill event etc.
 
 ## Improvement:
 
