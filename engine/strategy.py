@@ -6,7 +6,7 @@ The Strategy object calculates the market data, send signal to Portfolio object
 Market data by DataHandler -> Strategy -> Signal for Portfolio
 
 @author: Jesse J. Hsu
-@email: jessexu117@outlook.com
+@email: jinjie.xu@whu.edu.cn
 @version: 0.1
 """
 
