@@ -7,7 +7,7 @@ Market data by DataHandler -> Strategy -> Signal for Portfolio
 
 @author: Jesse J. Hsu
 @email: jinjie.xu@whu.edu.cn
-@version: 0.1
+@version: 0.1 
 """
 
 import pandas as pd
