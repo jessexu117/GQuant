@@ -22,6 +22,10 @@ Note: GQuant is a simple backtesting frame for Chinese Futures Market. Personall
 - **Strategy model**, the strategy object calculates the market data, send signal to portfolio object.
 - **Back-Test Class**, the main API for backtesting.
 
+## Plot:
+
+![https://www.backtrader.com/static/images/sigsmacross2.png](https://www.backtrader.com/static/images/sigsmacross2.png)
+
 ## Improvement:
 
 - More dedicated designed exchange simulator. It is flexible and extendible, for day/hour/minute/second/tick level data executor. Even you can make it for order book dynamics research.
