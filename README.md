@@ -22,6 +22,44 @@ Note: GQuant is a simple backtesting frame for Chinese Futures Market. Personall
 - **Strategy model**, the strategy object calculates the market data, send signal to portfolio object.
 - **Back-Test Class**, the main API for backtesting.
 
+## Easy Strategy:
+
+```python
+# -*- coding: utf-8 -*-
+
+import os
+from datetime import *
+
+from gquant import SignalEvent, Strategy, CSVDataHandler, SimulatedExecutionHandler, Backtest, BasicPortfolioHandler
+
+class MyStrategy(Strategy):
+    """
+    My Strategy class
+    """
+    def __init__(self, bars, portfolio, events):
+        pass
+
+    def _data_preprocessor(self):
+        pass
+
+    def before_trading(self):
+        pass
+
+    def calculate_signals(self, event):
+        pass
+
+if __name__ == '__main__':
+    csv_dir = os.path.join(os.path.dirname(os.getcwd()), 'mystrategy')
+    start_date = datetime(2017, 1, 4, 0, 0)
+    end_date = datetime(2017, 9, 1, 0, 0)
+    backtest = Backtest(csv_dir, symbol_list=['RU.SHF'], initial_capital=10000.0, heartbeat=0.0,
+                        start_date, end_date, CSVDataHandler, SimulatedExecutionHandler,
+                        BasicPortfolioHandler, MyStrategy, slippage_type='fixed', commission_type='default')
+
+    positions, holdings = backtest.simulate_trading()
+    print(holdings)
+```
+
 ## Plot:
 
 ![https://www.backtrader.com/static/images/sigsmacross2.png](https://www.backtrader.com/static/images/sigsmacross2.png)
